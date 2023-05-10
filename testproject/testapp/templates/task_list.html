@@ -1,0 +1,5 @@
+{% for task in tasks %}
+    <div>{{ task.name }}</div>
+{% empty %}
+    <p>No tasks found.</p>
+{% endfor %}
