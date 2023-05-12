@@ -9,10 +9,10 @@ jobs:
 
     steps:
     - name: checkout code
-      uses: actions/checkout@main
+      uses: actions/checkout@2
 
     - name: Set up Python
-      uses: actions/setup-python@v2.3.2
+      uses: actions/setup-python@v2.4.5
       with:
         python-version: '3.9'
 
